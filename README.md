@@ -1,10 +1,10 @@
 # EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR
+#### Date:
+### Aim:
+To Interface a IR Sensor to digital port of iot development board  and generate an interrupt and visualize on the serial monitor 
 
-## Aim:
-To Interface a IR Sensor to digital port of iot development board  and generate an interrupt and visualize on the serial monitor.
-
-## Components required:
-STM32 CUBE IDE,  serial port utility monitor.
+### Components required:
+STM32 CUBE IDE,  serial port utility monitor .
 
 
 ## Theory :
@@ -30,7 +30,7 @@ Connect VCC pin to the +5V pin on evive.
 Connect GND pin to evive’s GND pin.
 Connect OUT to any gpio and configure that pin as EXTI mode 
 
-## Interrupts:
+### Interrupts
 
 
 Interrupts are asynchronous (i.e. can happen anytime) events that disrupt the normal flow of your program. This allows the microcontroller to focus on a key task and attend to these events (e.g. pressing a button) as they come without needing to wait for them.
@@ -103,9 +103,7 @@ The diagram below shows how the GPIO pins are connected to the 16 interrupt line
 
 
 17. check for execution of the output by switching the board to run mode 
-18. click on the serial port utility
-
-    
+18. click on the serial port utility 
 ![image](https://github.com/vasanthkumarch/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/36288975/cd2c17fc-afac-4d72-97f9-20db3e63f23f)
 19. click on the run to observe the values 
 
@@ -231,14 +229,14 @@ void assert_failed(uint8_t *file, uint32_t line)
 #endif
 ```
 
-### Output screen shots of serial port utility   :
+## Output screen shots of serial port utility   :
  ![image](https://github.com/Udhayasankaran04/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/119393933/d5a22be8-f26a-47fc-90a3-b44d7caa4a2a)
  ![image](https://github.com/Udhayasankaran04/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/119393933/7d51d82d-fe99-48d7-a32a-6839d9da98b8)
 
-### Circuit board :
+ ## Circuit board :
  ![image](https://github.com/Udhayasankaran04/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/119393933/49b6d032-38d1-4499-936d-2237f508ed73)
  ![image](https://github.com/Udhayasankaran04/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/119393933/6f5ae510-52b2-494e-8229-2e9be30e0400)
 
 
-## Result:
-Interfacing a IR SENSOR and interrupt is generated using external interrupt mode, visualized on serial port. 
+## Result :
+Interfacing a IR SENSOR and interrupt is generated using external interrupt mode, visualized on serial port.
